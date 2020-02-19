@@ -35,11 +35,11 @@ end
 def find_a(array_of_fruits)
   array_of_fruits.select do |letter|
     letter.start_with?("a")
-    end  
+  end  
 end
 
 def sum_array(num)
  num.inject do |sum, n|
    sum + n
+ end
 end
-
