@@ -50,5 +50,6 @@ def add_s(array)
     nil 
   else
     element + "s"
+  end
  end
 end  
