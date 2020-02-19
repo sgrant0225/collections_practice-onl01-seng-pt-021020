@@ -33,6 +33,6 @@ def kesha_maker(array_of_strings)
 end
 
 def find_a(array_of_fruits)
-  #array = [] 
+  array_of_fruits.start_with?("a") 
   binding.pry
 end  
