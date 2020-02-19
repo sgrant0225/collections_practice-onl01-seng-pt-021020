@@ -38,6 +38,9 @@ def find_a(array_of_fruits)
     end  
 end
 
-def sum_array
- 
+def sum_array(num)
+ num.inject do |sum, n|
+   sum + n
 end
+
+(5..10).inject { |sum, n| sum + n }  
