@@ -35,6 +35,5 @@ end
 def find_a(array_of_fruits)
   array_of_fruits.select do |letter|
     letter.start_with?("a")
-  
-end  
+    end  
 end
