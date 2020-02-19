@@ -33,9 +33,8 @@ def kesha_maker(array_of_strings)
 end
 
 def find_a(array_of_fruits)
-  array = [] 
- array << array_of_fruits.find do |item|
-    item.include?("a")
+  #array = [] 
+  array_of_fruits.find do |item|
+    item.sort_with?("a")
     end
-    array
 end  
