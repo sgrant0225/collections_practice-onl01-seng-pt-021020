@@ -38,6 +38,6 @@ def find_a(array_of_fruits)
     end  
 end
 
-def
-
+def sum_array
+ 
 end
