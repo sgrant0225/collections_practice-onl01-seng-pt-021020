@@ -34,7 +34,7 @@ end
 
 def find_a(array_of_fruits)
   #array = [] 
-  array_of_fruits. do |item|
-    item.start_with?("a")
+  binding.pry
+    
     end
 end  
