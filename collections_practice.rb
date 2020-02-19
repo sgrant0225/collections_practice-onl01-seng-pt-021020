@@ -45,7 +45,7 @@ def sum_array(num)
 end
 
 def add_s(array)
-  array.each_with_index.collect |element, value|
+  array.each_with_index.collect |element, index|
   binding.pry
 end
 end  
