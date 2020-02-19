@@ -27,10 +27,15 @@ def reverse_array(array_integers)
 end
 
 def kesha_maker(array_of_strings)
-  #new_string = array_of_strings.join(" , ")
   array_of_strings.each do |string|
-    binding.pry
-    #string[2].sub!("a", "$")
-    end 
-end 
+  string[2] = ("$")
+ end 
+end
 
+def find_a(array_of_fruits)
+  array = [] 
+ array << array_of_fruits.find do |item|
+    item.include?("a")
+    end
+    array
+end  
