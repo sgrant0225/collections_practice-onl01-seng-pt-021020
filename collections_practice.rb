@@ -35,6 +35,4 @@ end
 def find_a(array_of_fruits)
   #array = [] 
   binding.pry
-    
-    end
 end  
