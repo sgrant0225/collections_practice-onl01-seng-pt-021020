@@ -33,6 +33,8 @@ def kesha_maker(array_of_strings)
 end
 
 def find_a(array_of_fruits)
-  array_of_fruits.select
+  array_of_fruits.select do |letter|
+    letter.start_with?("a")
   binding.pry
 end  
+end
