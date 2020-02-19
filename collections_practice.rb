@@ -35,6 +35,6 @@ end
 def find_a(array_of_fruits)
   #array = [] 
   array_of_fruits.find do |item|
-    item.sort_with?("a")
+    item.start_with?("a")
     end
 end  
